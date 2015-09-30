@@ -1,0 +1,90 @@
+body {
+    background-color: #000000;
+    background-image: url('../imgs/cover.jpg');
+    background-size:   cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.page-container{
+}
+
+.summary{
+    background-color: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    width: 400px;
+    height: 450px;
+}
+
+.summary-inner{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 13px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.summay-inner, .material-icons{
+    vertical-align: top;
+    font-size: 20px;
+}
+
+.summary-li{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 5px;
+    padding-left: 8px;
+    color: #09D
+}
+
+#chi-name{
+    font-size: 64px;
+    display: inline-block;
+    margin-right: 0px;
+}
+
+#eng-name{
+    font-size: 22px;
+    padding: 5px;
+    margin-left: 0px;
+    display: inline-block;
+}
+
+.summary-li > div{
+    padding-bottom: 3px;
+}
+
+.detail-page-container{
+    position: fixed;
+    width: 100%;
+    top: 95%;
+}
+
+.dp-title{
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 100%;
+    height: 40px;
+}
+
+.dp-title > span{
+    padding: 5px 20px 5px 20px;
+
+    text-align: left;
+    vertical-align: middle;
+    font-size:18px;
+    color: #999;
+}
+
+
+.dp-page{
+    background-color: #ADA;
+    width: 100%;
+    height: 1024px;
+
+    text-align: left;
+    font-size:18px;
+    color: #999;
+}
