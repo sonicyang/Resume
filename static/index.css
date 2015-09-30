@@ -1,0 +1,47 @@
+body {
+    background-color: #000000;
+    background-image: url('cover.jpg');
+    background-size:   cover;
+    background-repeat: no-repeat;
+}
+
+.page-container{
+}
+
+.summary{
+    background-color: #000000;
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    width: 400px;
+    height: 450px;
+    opacity: 0.8;
+}
+
+.summary-inner{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.summary-li{
+     padding-top: 3px;
+     padding-left: 20px;
+}
+
+#chi-name{
+    font-size: 64px;
+    display: inline-block;
+    margin-right: 0px;
+}
+
+#eng-name{
+    font-size: 22px;
+    padding: 5px;
+    margin-left: 0px;
+    display: inline-block;
+    text-align
+}
