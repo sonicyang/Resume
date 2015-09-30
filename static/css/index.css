@@ -20,11 +20,11 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
     display: inline-block;
     position: relative;
-    top: 15%;
-    left: 65%;
-    width: 35%;
+    top: 20%;
+    left: calc(100% - 370px);
+    width: 370px;
     height: 450px;
-    min-width: 400px
+    min-width: 370px
 }
 
 .summary-inner{
