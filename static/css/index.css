@@ -9,14 +9,22 @@ body {
 .page-container{
 }
 
+.cover{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 95%;
+}
+
 .summary{
     background-color: rgba(0, 0, 0, 0.7);
     display: inline-block;
-    position: absolute;
-    top: 150px;
-    right: 0px;
-    width: 400px;
+    position: relative;
+    top: 15%;
+    left: 65%;
+    width: 35%;
     height: 450px;
+    min-width: 400px
 }
 
 .summary-inner{
@@ -58,19 +66,20 @@ body {
 }
 
 .detail-page-container{
-    position: fixed;
+    position: relative;
     width: 100%;
-    top: 95%;
+    height: 1024px
 }
 
 .dp-title{
+    position: relative;
     background-color: rgba(0, 0, 0, 0.65);
     width: 100%;
-    height: 40px;
+    height: 50px;
 }
 
 .dp-title > span{
-    padding: 5px 20px 5px 20px;
+    padding: 50px 20px 0px 20px;
 
     text-align: left;
     vertical-align: middle;
@@ -80,9 +89,10 @@ body {
 
 
 .dp-page{
+    position: relative;
     background-color: #ADA;
     width: 100%;
-    height: 1024px;
+    height: 100%;
 
     text-align: left;
     font-size:18px;
