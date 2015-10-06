@@ -52,7 +52,7 @@ body {
     vertical-align: top;
     padding-top: 5px;
     padding-left: 8px;
-    color: #2B82AD;
+    color: #DAD984
 }
 
 #chi-name{
@@ -97,7 +97,7 @@ body {
 .dp-self{
     position: relative;
     display: inline-block;
-    background-color: #353241;
+    background-color: #444444;
     width: 23%;
     height: 100%;
     left: 0px;
@@ -107,18 +107,14 @@ body {
 .dp-page{
     position: absolute;
     display: inline-block;
-    background-color: #4A485C;
+    background-color: #35342C;
     width: 77%;
     height: 100%;
     right: 0px;
 
     text-align: left;
     font-size:18px;
-    color: #D9D0C7;
-}
-
-.dp-page hr{
-     color: #D79691;
+    color: #F3E59A;
 }
 
 .dp-self-margin{
@@ -129,21 +125,21 @@ body {
 
 .dp-chi-name{
     font-size: 64px;
-    color: #D9D0C7;
+    color: #F4EFCC;
 }
 
 .dp-eng-name{
     margin-left: 5px;
     margin-top: 5px;
     font-size: 32px;
-    color: #D9D0C7;
+    color: #DBD6B7;
 }
 
 .dp-contact{
     margin-left: 8px;
     margin-top: 30px;
     font-size: 20px;
-    color: #D79691;
+    color: #DBD6B7;
 }
 
 .dp-contact-icons{
@@ -171,12 +167,12 @@ body {
     height: inherit;
 }
 
-.icon:hover{
-    opacity: 0.5;
+#email{
+    background: none;
 }
 
-#email{
-    background-color: #EEE;
+#github{
+
 }
 
 #linkedin{
