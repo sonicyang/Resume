@@ -228,6 +228,7 @@ body {
 }
 
 .info-box{
+    vertical-align: top;
     position: relative;
     margin-left: 10px;
     margin-top: 20px;
